@@ -41,7 +41,7 @@ def zoom_link_generator(day):
         if i == 'BigData Analysis':
             print(i + ':https://zoom.us/j/' + TimetableList[day][i])
         elif i in ['Calculus', 'Homeroom time', 'Industrial Mathematics(kim)']:
-            print(i + ': google-meet')
+            print(i + ': https://meet.google.com/rjd-suxy-pmw')
         elif i == 'CA':
             print(i + ': NONE')
         else:
